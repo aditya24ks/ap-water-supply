@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ap-water-supply.vercel.app/sitemap.xml
