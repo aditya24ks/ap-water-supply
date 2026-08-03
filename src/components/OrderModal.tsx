@@ -81,7 +81,7 @@ Pricing: ${totalStr}
 Please confirm my order and share best pricing details. Thank you!`;
 
     const encodedText = encodeURIComponent(whatsappText);
-    const whatsappUrl = `https://wa.me/919814601427?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/8557000423?text=${encodedText}`;
 
     // Open WhatsApp URL in new window/tab
     window.open(whatsappUrl, '_blank');

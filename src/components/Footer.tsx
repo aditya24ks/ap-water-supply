@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
           </p>
 
           <a
-            href="https://wa.me/919814601427?text=Hello%20AP%20Water%20Supply!%20👋%20I%20have%20an%20inquiry."
+            href="https://wa.me/8557000423?text=Hello%20AP%20Water%20Supply!%20👋%20I%20have%20an%20inquiry."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-5 py-2.5 bg-[#25D366] text-[#000f2b] font-extrabold rounded-full hover:bg-white transition-all shadow-md active:scale-95 text-xs uppercase tracking-wider mb-4 cursor-pointer"
@@ -93,8 +93,8 @@ export const Footer: React.FC = () => {
               </span>
               <div>
                 <span className="block font-semibold text-white">Phone Number:</span>
-                <a href="tel:+919814601427" className="hover:text-white transition-colors">
-                  +91 98146 01427
+                <a href="tel:+8557000423" className="hover:text-white transition-colors">
+                  8557000423
                 </a>
               </div>
             </div>
@@ -106,12 +106,12 @@ export const Footer: React.FC = () => {
               <div>
                 <span className="block font-semibold text-white">WhatsApp Number:</span>
                 <a
-                  href="https://wa.me/919814601427"
+                  href="https://wa.me/8557000423"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  +91 98146 01427
+                  8557000423
                 </a>
               </div>
             </div>

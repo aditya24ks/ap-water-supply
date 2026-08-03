@@ -6,7 +6,7 @@ interface FloatingWhatsAppProps {
 
 export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onClick }) => {
   const whatsappUrl =
-    'https://wa.me/919814601427?text=Hello%20AP%20Water%20Supply!%20👋%20I%20want%20to%20place%20an%20order.';
+    'https://wa.me/8557000423?text=Hello%20AP%20Water%20Supply!%20👋%20I%20want%20to%20place%20an%20order.';
 
   const handleClick = () => {
     if (onClick) {
