@@ -223,7 +223,7 @@ Please confirm my order and share best pricing details. Thank you!`;
               required
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              placeholder="e.g. +91 98146 01427"
+              placeholder="e.g. 8557000423"
               className="w-full px-4 py-2.5 rounded-xl border border-[#c4c6d0] text-xs focus:ring-2 focus:ring-[#25D366] focus:border-[#25D366] outline-none transition-all"
             />
           </div>
