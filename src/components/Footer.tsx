@@ -156,7 +156,7 @@ export const Footer: React.FC = () => {
 
             <div className="pt-2">
               <a
-                href="https://maps.google.com/?q=AP+Water+Supply+Jalandhar"
+                href="https://www.google.com/maps/place/31%C2%B009'33.3%22N+75%C2%B012'48.3%22E/@31.1591079,75.2124374,783m/data=!3m1!1e3!4m4!3m3!8m2!3d31.1592483!4d75.2134269!5m1!1e2!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-xs text-[#38bdf8] hover:text-white hover:underline transition-colors font-bold"

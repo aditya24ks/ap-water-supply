@@ -64,19 +64,26 @@ export const Contact: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-4 sm:gap-6 group">
+                <a
+                  href="https://www.google.com/maps/place/31%C2%B009'33.3%22N+75%C2%B012'48.3%22E/@31.1591079,75.2124374,783m/data=!3m1!1e3!4m4!3m3!8m2!3d31.1592483!4d75.2134269!5m1!1e2!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 sm:gap-6 group cursor-pointer"
+                >
                   <div className="bg-[#000f2b] text-white p-3 sm:p-4 rounded-2xl group-hover:bg-[#006685] transition-colors duration-300">
                     <span className="material-symbols-outlined text-2xl">location_on</span>
                   </div>
                   <div>
                     <p className="text-[10px] sm:text-xs text-[#44474f] font-bold uppercase tracking-widest">
-                      Visit Us
+                      Visit Us (Open Map)
                     </p>
-                    <p className="text-lg sm:text-xl font-bold text-[#000f2b]">
+                    <p className="text-lg sm:text-xl font-bold text-[#000f2b] group-hover:text-[#006685] transition-colors">
                       {selectedLocation.address}
                     </p>
+
+                    
                   </div>
-                </div>
+                </a>
 
                 <a
                   href="https://www.instagram.com/apwatersupply?utm_source=qr&igsh=MWpwZDVnMHRzYnk2MQ=="
@@ -217,19 +224,32 @@ export const Contact: React.FC = () => {
             </div>
 
             {/* Interactive Map Visual Box */}
-            <div className="w-full h-44 rounded-3xl overflow-hidden shadow-lg border border-black/5 relative bg-[#e2e2e2] flex items-center justify-center">
-              <div className="text-center p-4">
-                <span className="material-symbols-outlined text-3xl text-[#006685] mb-1">
-                  map
-                </span>
-                <p className="font-bold text-[#000f2b] text-sm font-['Manrope']">
-                  Interactive Service Map — {selectedLocation.city}
-                </p>
-                <p className="text-xs text-[#44474f]">
-                  Serving {selectedLocation.city} & surrounding metro area within 30 miles
+            <a
+              href="https://www.google.com/maps/place/31%C2%B009'33.3%22N+75%C2%B012'48.3%22E/@31.1591079,75.2124374,783m/data=!3m1!1e3!4m4!3m3!8m2!3d31.1592483!4d75.2134269!5m1!1e2!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative w-full h-52 sm:h-60 rounded-3xl overflow-hidden shadow-xl border border-black/10 block cursor-pointer"
+            >
+              <img
+                src="/images/map-location.png"
+                alt="AP Water Supply Google Map Location"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex flex-col justify-end p-4 text-white">
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="material-symbols-outlined text-red-500 text-2xl animate-bounce">
+                    location_on
+                  </span>
+                  <p className="font-bold text-sm sm:text-base font-['Manrope'] drop-shadow-md">
+                    AP Water Supply Location
+                  </p>
+                </div>
+                <p className="text-xs text-white/90 flex items-center gap-1 font-semibold">
+                  <span>Click to open location on Google Maps</span>
+                  <span className="material-symbols-outlined text-sm">open_in_new</span>
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@ export const AccountModal: React.FC<AccountModalProps> = ({ isOpen, onClose }) =
               </div>
               <div>
                 <p className="font-bold text-[#000f2b] text-sm">Customer Member</p>
-                <p className="text-xs text-[#44474f]">{email || 'akashdeep6301@gmail.com'}</p>
+                <p className="text-xs text-[#44474f]">{email || 'apwatersupply7@gmail.com'}</p>
               </div>
             </div>
 

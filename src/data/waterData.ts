@@ -92,20 +92,20 @@ export const LOCATIONS: Location[] = [
     city: 'Main Branch',
     address: 'Model Town, Jalandhar, Punjab',
     phone: '8557000423',
-    email: 'akashdeep6301@gmail.com'
+    email: 'apwatersupply7@gmail.com'
   },
   {
     id: 'loc-north',
     city: 'North Sector',
     address: 'Rama Mandi, Jalandhar, Punjab',
     phone: '8557000423',
-    email: 'akashdeep6301@gmail.com'
+    email: 'apwatersupply7@gmail.com'
   },
   {
     id: 'loc-south',
     city: 'South Hub',
     address: 'Urban Estate Phase 2, Jalandhar, Punjab',
     phone: '8557000423',
-    email: 'akashdeep6301@gmail.com'
+    email: 'apwatersupply7@gmail.com'
   }
 ];
